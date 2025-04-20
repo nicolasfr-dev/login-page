@@ -5,6 +5,7 @@
     box-shadow: 0 0 8px var(--shadow);
     border-radius: 20px;
     background-color: var(--bg-color);
+    transition: ease-in-out, background-color 0.3s, color 0.2s;
 }
 
 .login h2 {
