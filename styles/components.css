@@ -1,0 +1,91 @@
+.login {
+    width: 350px;
+    height: 400px;
+    margin: 40px;
+    box-shadow: 0 0 8px var(--shadow);
+    border-radius: 20px;
+    background-color: var(--bg-color);
+}
+
+.login h2 {
+    font-size: 40px;
+    margin: 20px;
+}
+
+.login i {
+    font-size: 32px;
+}
+
+.login label {
+    font-size: 22px;
+}
+
+.login input {
+    background-color: var(--bg-color);
+    color: var(--font-color);
+    width: 300px;
+    height: 50px;
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 16px;
+    outline: 1px solid var(--bg-color3);
+    border: 0;
+    border-radius: 20px;
+    transition: ease-in-out, background-color 0.3s, color 0.2s;
+}
+
+.login input::placeholder {
+    color: var(--font-color);
+    opacity: 0.5;
+}
+
+.login input:focus-visible {
+    outline: 2px solid;
+    outline-color: var(--active-color);
+    transition: ease-in-out 0.1s
+}
+
+.login button {
+    width: 150px;
+    height: 50px;
+    margin: 20px;
+    background-color: var(--button-color);
+    color: var(--font-color);
+    box-shadow: 0 2px 3px var(--shadow);
+    border-radius: 10px;
+    border: 0;
+    font-size: 20px;
+    transition: ease-in-out 0.1s;
+    user-select: none;
+}
+
+.login button:hover {
+    background-color: var(--button-hover);
+    transition: ease-in-out 0.1s;
+    cursor: pointer;
+}
+
+.login button:active {
+    background-color: var(--active-color);
+    color: var(--active-text);
+    transition: ease-in-out 0.1s;
+}
+
+.login a {
+    color: var(--active-color);
+    text-decoration: none;
+}
+
+.login a:hover {
+    text-decoration: underline;
+}
+
+header .container {
+    background-color: var(--bg-color3);
+
+    padding: 10px;
+
+    box-shadow: 0 0 4px var(--shadow);
+
+    transition: ease-in-out, background-color 0.3s, color 0.2s;
+}

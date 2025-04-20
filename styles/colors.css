@@ -1,0 +1,24 @@
+:root {
+    --bg-color: #f8f9fa;
+    --bg-color2: #edf4fa;
+    --bg-color3: #dfe5eb;
+    --font-color: #212529;
+    --button-color: #E9ECEF;
+    --button-hover: #cdd6df;
+    --active-color: #89c2d9;
+    --active-text: #f8f9fa;
+    --toggle-color: #89c2d9;
+    --toggle-label: #f8f9fa;
+    --shadow: rgba(0,0,0,0.2)
+}
+
+.page:has(#theme-toggle:checked) {
+    --bg-color: #42484e;
+    --bg-color2: #32373d;
+    --bg-color3: #2a2f36;
+    --font-color: #f8f9fa;
+    --button-color: #34393f;
+    --button-hover: #23272c;
+    --toggle-color: #f8f9fa;
+    --toggle-label: #89c2d9;
+}

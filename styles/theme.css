@@ -1,0 +1,53 @@
+@import url('https://cdn-uicons.flaticon.com/2.6.0/uicons-regular-straight/css/uicons-regular-straight.css');
+
+.theme-toggle {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.theme-toggle i {
+    font-size: 22px;
+}
+
+.theme-toggle label {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    cursor: pointer;
+    color: var(--font-color);
+    font-size: 0.9rem;
+    user-select: none;
+}
+
+.theme-toggle input {
+    width: 60px;
+    height: 30px;
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: var(--toggle-label);
+    outline: none;
+    border-radius: 999px;
+    position: relative;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.theme-toggle input::before{ /*  bolinha sem marcar */
+    content: '';
+    width: 28px;
+    height: 28px;
+    background-color: var(--toggle-color);
+    border-radius: 50%;
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    transition: transform 0.3s ease;
+}
+
+.theme-toggle input:checked::before { /*  bolinha dps de marcar */
+    transform: translateX(30px);
+  }

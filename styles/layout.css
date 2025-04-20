@@ -1,0 +1,30 @@
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.login input {
+    display: flex;
+    justify-self: center;
+    align-items: center;
+}
+
+.login a {
+    display: flex;
+    justify-self: center;
+}
+
+.login button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-self: center;
+}
